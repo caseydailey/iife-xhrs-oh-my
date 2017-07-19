@@ -1,9 +1,12 @@
+const carnList = document.querySelector("#carnivores");
+const herbList = document.querySelector("#herbivores");
+
 function showCarnivores (carnivores) {
-  console.log("showCarnivores: ", carnivores);
+  carnivores.predators.forEach((carnivore)=> carnList.innerHTML += `<li>${carnivore.name}</li>`);
 }
 
 function showHerbivores (herbivores) {
-  console.log("showHerbivores: ", herbivores);
+  herbivores.herbivores.forEach((herbivore)=> herbList.innerHTML += `<li>${herbivore.name}</li>`);
 
 }
 
