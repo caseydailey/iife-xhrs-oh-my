@@ -1,5 +1,5 @@
 {
-     "predators":[
+     "animals":[
         {
             "name": "lion",
             "carnivore": "true"
