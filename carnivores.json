@@ -1,0 +1,55 @@
+{
+     "predators":[
+        {
+            "name": "lion",
+            "carnivore": "true"
+
+        },
+        {
+            "name": "lion",
+            "carnivore": "true"
+
+        },
+        {
+            "name": "lion",
+            "carnivore": "true"
+
+        },
+        {
+            "name": "lion",
+            "carnivore": "true"
+
+        },
+        {
+            "name": "lion",
+            "carnivore": "true"
+
+        },
+        {
+            "name": "lion",
+            "carnivore": "true"
+
+        },
+        {
+            "name": "lion",
+            "carnivore": "true"
+
+        },
+        {
+            "name": "lion",
+            "carnivore": "true"
+
+        },
+        {
+            "name": "lion",
+            "carnivore": "true"
+
+        },
+        {
+            "name": "lion",
+            "carnivore": "true"
+
+        }
+
+    ]
+}

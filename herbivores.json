@@ -1,0 +1,55 @@
+{
+     "herbivores":[
+        {
+            "name": "impala",
+            "carnivore": "false"
+
+        },
+        {
+            "name": "impala",
+            "carnivore": "false"
+
+        },
+        {
+            "name": "impala",
+            "carnivore": "false"
+
+        },
+        {
+            "name": "impala",
+            "carnivore": "false"
+
+        },
+        {
+            "name": "impala",
+            "carnivore": "false"
+
+        },
+        {
+            "name": "impala",
+            "carnivore": "false"
+
+        },
+        {
+            "name": "impala",
+            "carnivore": "false"
+
+        },
+        {
+            "name": "impala",
+            "carnivore": "false"
+
+        },
+        {
+            "name": "impala",
+            "carnivore": "false"
+
+        },
+        {
+            "name": "impala",
+            "carnivore": "false"
+
+        }
+
+    ]
+}
