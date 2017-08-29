@@ -5,8 +5,7 @@ var Animal = (function (animals) {
 
       //make a new request
       var request = new XMLHttpRequest();
-      
-
+    
       //listen for load and/or error
       request.onload = () => callBack(JSON.parse(request.responseText));
       request.onerror = error => console.log(error);
