@@ -9,17 +9,15 @@ var Predator = (function (predator) {
       //make a new request
       var request = new XMLHttpRequest();
 
-      //open and send it
-      request.open("GET", "carnivores.json");
-      request.send();
-
       //listen for load and/or error
-      request.addEventListener("error", loadFailed);
       request.addEventListener("load", loadComplete);
+      request.addEventListener("error", loadFailed);
 
       //callback for load
-      function loadComplete(load) {
+      function loadComplete() {
         carnivores = JSON.parse(this.responseText);
+        // invoking the callback passed at callsite
+        // in iife-xhr.js
         callBack(carnivores);
       }
 
@@ -27,6 +25,10 @@ var Predator = (function (predator) {
       function loadFailed(load){
         console.log("loaded failed: ", load.target.responseText);
       };
+
+      //open and send it
+      request.open("GET", "carnivores.json");
+      request.send();
     }
 
 
