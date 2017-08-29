@@ -13,5 +13,5 @@ function showHerbivores (herbivores) {
 }
 
 // invoke the loaders, passing the callbacks
-Predator.loadCarnivores(showCarnivores);
-Predator.loadHerbivores(showHerbivores);
+Animal.loadAnimals(showCarnivores, "carnivores");
+Animal.loadAnimals(showHerbivores, "herbivores");

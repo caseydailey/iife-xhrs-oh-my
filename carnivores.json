@@ -1,52 +1,52 @@
 {
      "animals":[
         {
-            "name": "lion",
+            "name": "lion1",
             "carnivore": "true"
 
         },
         {
-            "name": "lion",
+            "name": "lion2",
             "carnivore": "true"
 
         },
         {
-            "name": "lion",
+            "name": "lion3",
             "carnivore": "true"
 
         },
         {
-            "name": "lion",
+            "name": "lion4",
             "carnivore": "true"
 
         },
         {
-            "name": "lion",
+            "name": "lion5",
             "carnivore": "true"
 
         },
         {
-            "name": "lion",
+            "name": "lion6",
             "carnivore": "true"
 
         },
         {
-            "name": "lion",
+            "name": "lion7",
             "carnivore": "true"
 
         },
         {
-            "name": "lion",
+            "name": "lion8",
             "carnivore": "true"
 
         },
         {
-            "name": "lion",
+            "name": "lion9",
             "carnivore": "true"
 
         },
         {
-            "name": "lion",
+            "name": "lion10",
             "carnivore": "true"
 
         }
